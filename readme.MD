@@ -14,7 +14,7 @@ The output includes a hierarchical folder structure and the content of each file
 
 Clone this repository and navigate to the directory. Run the script using the following command:
 
-python script.py [repo_url]
+python repo2ai.py [repo_url]
 
 - Replace [repo_url] with the URL of the GitHub repository you want to analyze.
 - If no URL is provided, the script defaults to analyzing the repository: https://github.com/karpathy/cryptos/.
