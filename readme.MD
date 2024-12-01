@@ -15,12 +15,6 @@ python script.py [repo_url]
 - Replace [repo_url] with the URL of the GitHub repository you want to analyze.
 - If no URL is provided, the script defaults to analyzing the repository: https://github.com/karpathy/cryptos/.
 
-Example
-
-To analyze a specific repository, use:
-
-python script.py https://github.com/someuser/somerepo
-
 Output
 
 - The script generates an output.txt file in the script's directory.
