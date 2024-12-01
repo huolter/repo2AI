@@ -27,7 +27,5 @@ Notes
   pip install requests
 
 - The script will overwrite the output.txt file each time it is run.
+- See the repo folder and output.txt as examples based on https://github.com/karpathy/cryptos/
 
-License
-
-This project is open-source and available under the MIT License. See the LICENSE file for more details.
