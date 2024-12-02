@@ -1,4 +1,5 @@
 # repo2AI
+## repo --> AI
 
 This script downloads a GitHub repository as a ZIP file, extracts its contents, and generates a detailed structure and content description output in Markdown format to be used in AI applications, in particular with LLMs, when you want to include the context of a complete repository. 
 
@@ -18,6 +19,7 @@ python repo2ai.py [repo_url]
 
 - Replace [repo_url] with the URL of the GitHub repository you want to analyze.
 - If no URL is provided, the script defaults to analyzing the repository: https://github.com/karpathy/cryptos/.
+- You can edit the default repo URL at the top of the script
 
 ## Output
 
