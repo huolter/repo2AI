@@ -5,6 +5,9 @@ import io
 import shutil
 import argparse
 
+# edit this URL for the default repo to the fetched
+default_repo_url = 'https://github.com/karpathy/cryptos/'
+
 def get_default_branch(repo_url: str) -> str:
     api_url = f"https://api.github.com/repos/{'/'.join(repo_url.rstrip('/').split('/')[-2:])}"
     try:
@@ -139,7 +142,7 @@ def append_file_contents_to_description(repo_folder: str = None):
 
 def main():
     parser = argparse.ArgumentParser(description='Download and describe a GitHub repository.')
-    parser.add_argument('repo_url', nargs='?', default='https://github.com/karpathy/cryptos/', help='URL of the GitHub repository')
+    parser.add_argument('repo_url', nargs='?', default=default_repo_url, help='URL of the GitHub repository')
     
     args = parser.parse_args()
     repo_url = args.repo_url
