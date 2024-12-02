@@ -1,5 +1,4 @@
-# 💻 -> 🤖
-# repo2AI
+# 💻 --> 🤖 repo2AI
 
 This script downloads a GitHub repository as a ZIP file, extracts its contents, and generates a detailed structure and content description output in Markdown format to be used in AI applications, in particular with LLMs, when you want to include the context of a complete repository. 
 
